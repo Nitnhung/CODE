@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sự Kiện BTEC - Năng Động & Sáng Tạo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="header-top-row">
+                <div class="partner-logos">
+                    <a href="index.html"><img src="Logo-Btec (1).png" alt="BTEC Logo"></a>
+                    <a href="#"><img src="logo-pearson.png" alt="Pearson Logo"></a>
+                    <a href="#"><img src="logo-fpt-edu.png" alt="FPT Education Logo"></a>
+                </div>
+                <form id="header-search-form" class="search-form">
+                    <input type="search" id="header-search-input" placeholder="Tìm kiếm khóa học, thông tin, sự kiện...">
+                    <button type="submit">🔍</button>
+                </form>
+            </div>
+            <nav class="main-nav">
+                <a href="index.html">Trang Chủ</a>
+                <a href="hanh-trinh.html">Hành Trình</a>
+                <a href="su-kien.html" class="active">Sự kiện</a>
+                <a href="gia-tri.html">Giá Trị</a>
+                <a href="#" class="open-modal-btn">Đăng Ký Tư Vấn</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="featured-event" class="content-section page-section">
+            <div class="container">
+                <h2 class="section-title">Sự Kiện Nổi Bật: BTEC TechFest 2024</h2>
+                <p class="section-subtitle">Ngày hội công nghệ lớn nhất năm dành cho sinh viên BTEC, nơi trình diễn những dự án đột phá và sáng tạo.</p>
+                <div class="featured-event-container">
+                    <div class="featured-event-image">
+                        <img src="trangCode.jpg" alt="Sự kiện BTEC TechFest">
+                    </div>
+                    <div class="featured-event-content">
+                        <h3>Trạng Code</h3>
+                        <p>Btec Giữa Sắc Màu Mùa Hè Nơi Tinh Hoa Hội Tụ</p>
+                        <ul>
+                            <li><strong>Thời gian:</strong> 08:00, Ngày 19 tháng 07 năm 2025</li>
+                            <li><strong>Địa điểm:</strong> Hội trường, BTEC FPT Hà Nội</li>
+                        </ul>
+                        <a href="#" class="cta-button" id="open-event-detail-btn">Xem Chi Tiết</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="upcoming-events" class="content-section page-section btec-intro">
+            <div class="container">
+                <h2 class="section-title">Sự Kiện Sắp Diễn Ra</h2>
+                <p class="section-subtitle">Đừng bỏ lỡ những hoạt động hấp dẫn sắp tới!</p>
+                <div class="events-grid">
+                    <div class="event-card">
+                        <div class="event-date">
+                            <span class="day">15</span>
+                            <span class="month">THÁNG 11</span>
+                        </div>
+                        <h3 class="event-title">Workshop "AI & Tương Lai Ngành Thiết Kế"</h3>
+                        <p class="event-desc">Khám phá cách Trí tuệ nhân tạo đang thay đổi ngành thiết kế và học cách ứng dụng các công cụ AI vào công việc.</p>
+                        <a href="#" class="cta-button event-button open-modal-btn">Đăng Ký Ngay</a>
+                    </div>
+                     <div class="event-card">
+                        <div class="event-date">
+                            <span class="day">28</span>
+                            <span class="month">THÁNG 11</span>
+                        </div>
+                        <h3 class="event-title">Talkshow "Khởi Nghiệp Thời Đại Số"</h3>
+                        <p class="event-desc">Lắng nghe chia sẻ từ các nhà sáng lập startup thành công và học hỏi kinh nghiệm xây dựng doanh nghiệp.</p>
+                        <a href="#" class="cta-button event-button open-modal-btn">Đăng Ký Ngay</a>
+                    </div>
+                     <div class="event-card">
+                        <div class="event-date">
+                            <span class="day">05</span>
+                            <span class="month">THÁNG 12</span>
+                        </div>
+                        <h3 class="event-title">Giải Đấu E-sport Mùa Đông</h3>
+                        <p class="event-desc">Sân chơi thể thao điện tử bùng nổ dành cho các game thủ BTEC tranh tài ở các bộ môn hấp dẫn.</p>
+                        <a href="#" class="cta-button event-button open-modal-btn">Đăng Ký Ngay</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="past-events" class="content-section page-section">
+             <div class="container">
+                <h2 class="section-title">Nhìn Lại Những Khoảnh Khắc</h2>
+                <p class="section-subtitle">Các sự kiện đã để lại dấu ấn khó phai trong cộng đồng BTEC-ers.</p>
+                <div class="events-grid">
+                    <div class="event-card past-event">
+                        <div class="event-date">
+                            <span class="day">20</span>
+                            <span class="month">THÁNG 09</span>
+                        </div>
+                        <h3 class="event-title">Đêm Nhạc Chào Tân Sinh Viên</h3>
+                        <p class="event-desc">Một đêm nhạc bùng nổ cảm xúc với sự tham gia của các CLB và ca sĩ khách mời nổi tiếng.</p>
+                        <a href="#" class="cta-button event-button">Xem Album Ảnh</a>
+                    </div>
+                     <div class="event-card past-event">
+                        <div class="event-date">
+                            <span class="day">10</span>
+                            <span class="month">THÁNG 08</span>
+                        </div>
+                        <h3 class="event-title">Chuyến Đi Tình Nguyện "Mùa Hè Xanh"</h3>
+                        <p class="event-desc">Hành trình ý nghĩa đến với các vùng cao, mang kiến thức và sự sẻ chia đến với trẻ em khó khăn.</p>
+                        <a href="#" class="cta-button event-button">Xem Album Ảnh</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="#" class="footer-logo-alliance">
+                    <img src="images/logo-btec-fpt-alliance.png" alt="BTEC FPT Alliance Logo">
+                </a>
+                <h3>Cao đẳng Anh Quốc BTEC FPT</h3>
+                <p class="hotline-247">Hotline 24/7</p>
+                <p class="footer-phone">0329 605 828</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Youtube">▶️</a>
+                    <a href="#" aria-label="Facebook">👍</a>
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="Tiktok">🎵</a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-locations">
+                    <div class="location-item">
+                        <h4>BTEC FPT Hà Nội</h4>
+                        <p>Toà BTEC FPT, Trịnh Văn Bô, Nam Từ Liêm, TP. Hà Nội</p>
+                        <p>098 109 05 13</p>
+                    </div>
+                    <div class="location-item">
+                        <h4>BTEC FPT Đà Nẵng</h4>
+                        <p>66 Võ Văn Tần, Q. Thanh Khê, TP. Đà Nẵng</p>
+                        <p>032 757 57 27</p>
+                    </div>
+                    <div class="location-item">
+                        <h4>BTEC FPT Hồ Chí Minh</h4>
+                        <p>Toà F, công viên phần mềm Quang Trung, P. Tân Chánh Hiệp, Q. 12, TP. Hồ Chí Minh</p>
+                        <p>035 385 21 38</p>
+                    </div>
+                    <div class="location-item">
+                        <h4>BTEC FPT Cần Thơ</h4>
+                        <p>Đường số 22, Phường Thường Thạnh, Quận Cái Răng, TP. Cần Thơ</p>
+                        <p>096 705 76 05</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="contact-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-modal">×</button>
+            <h2>Đăng Ký Tư Vấn</h2>
+            <p>Để lại thông tin, chúng tôi sẽ liên hệ với bạn sớm nhất!</p>
+            <form id="popup-contact-form">
+                <input type="text" id="popup-name" name="name" placeholder="Họ và Tên của bạn" required>
+                <input type="tel" id="popup-phone" name="phone" placeholder="Số điện thoại" required>
+                <input type="email" id="popup-email" name="email" placeholder="Địa chỉ Email" required>
+                <button type="submit" class="cta-button">Gửi Thông Tin</button>
+            </form>
+            <div id="popup-form-message" class="form-message"></div>
+        </div>
+    </div>
+
+    <div id="value-detail-modal" class="modal-overlay">
+        <div class="modal-content value-detail-content">
+            <button class="close-modal">×</button>
+            <div id="modal-value-icon" class="value-icon"></div>
+            <h2 id="modal-value-title"></h2>
+            <p id="modal-value-description"></p>
+        </div>
+    </div>
+
+    <div id="event-detail-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-modal">×</button>
+            <img id="modal-event-image" src="" alt="Hình ảnh sự kiện" class="event-modal-image">
+            <h2 id="modal-event-title"></h2>
+            <div id="modal-event-info" class="event-modal-info"></div>
+            <p id="modal-event-description"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
